@@ -13,7 +13,7 @@ from pathlib import Path
 
 from fairscale.nn.model_parallel.initialize import initialize_model_parallel
 
-from llama.model import ModelArgs, Transformer
+from llama.model_inference import ModelArgs, Transformer
 from llama.tokenizer import Tokenizer
 from llama.generation import LLaMA
 
@@ -94,33 +94,6 @@ def main(
         for result in results:
             print(f"Result: \n{result}")
             print("==================================\n")
-
-
-    prompts = [
-        # For these prompts, the expected answer is the natural continuation of the prompt
-        "Reference ",
-        # Few shot prompts: https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api
-        """Tweet: "I hate it when my phone battery dies."
-        Sentiment: Negative
-        ###
-        Tweet: "My day has been 👍"
-        Sentiment: Positive
-        ###
-        Tweet: "This is the link to the article"
-        Sentiment: Neutral
-        ###
-        Tweet: "This new music video was incredibile"
-        Sentiment:""",
-                # """Translate English to French:
-
-        # sea otter => loutre de mer
-
-        # peppermint => menthe poivrée
-
-        # plush girafe => girafe peluche
-
-        # cheese =>""",
-    ]
 
 
 
