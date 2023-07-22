@@ -1,2 +1,2 @@
 # HW2
-Advanced ML HW2 code
+Training implementation of Meta's LLaMa along with code for ablation studies and experiments as part of the Spring 2023 offering of CSE 599S: Advanced ML at the University of Washington.
