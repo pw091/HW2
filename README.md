@@ -1,4 +1,4 @@
-# CSE 599S: Advanced Machine Learning - Homework 2
+# CSE 599S: Advanced Machine Learning - Assignment 2
 
 ## Overview
 [assignment_description.pdf](assignment_description.pdf)
