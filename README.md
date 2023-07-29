@@ -16,9 +16,7 @@ Starting from the inference-only [LLaMA codebase](https://github.com/facebookres
 [inference/](inference) contains modified versions of the training implementation for sampling from a trained model.
 
 ## Experimentation
-Analyses of [multiple pass training](epochfrenzy) and [hyperparameter tuning](hyperparametersearch).
-
--[epochrenzy/](epochfrenzy) examines the impacts of training redundancy on inference.
+-[epochrenzy/](epochfrenzy) examines the impacts of multiple pass training on inference.
 
 -[hyperparametersearch/](hyperparametersearch) analyzes the relationships among model arguments through their effects on inference.
 
