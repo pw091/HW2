@@ -8,7 +8,7 @@ Starting from the inference-only [LLaMA codebase](https://github.com/facebookres
 ## Training
 -[training_structure.ipynb](training/training_structure.ipynb) contains from-scratch implementation for data processing and model training.
 
--[model_train.py](training/model_train.py) and [tokenizer_zeropad.py] are modified deployments of LLaMA's inference architecture.
+-[model_train.py](training/model_train.py) and [tokenizer_zeropad.py](training/tokenizer_zeropad.py) are modified deployments of LLaMA's inference architecture.
 
 -[tokenizer.model](training/tokenizer.model) is a pretrained sentencepiece tokenizer provided by the LLaMA team upon request.
 
