@@ -5,7 +5,8 @@
 
 Starting from the inference-only [LLaMA codebase](https://github.com/facebookresearch/llama/) and corpora from [The Pile](https://the-eye.eu/public/AI/pile/), implement and train from scratch an AI chatbot. Then, propose and conduct experiments and an ablation study on the trained model.
 
-## Training ### Primary contributor: [pw091](https://github.com/pw091)
+## Training 
+### Primary contributor: [pw091](https://github.com/pw091)
 - [training_structure.ipynb](training/training_structure.ipynb) contains the from-scratch implementation for data processing and model training.
 
 - [model_train.py](training/model_train.py) and [tokenizer_zeropad.py](training/tokenizer_zeropad.py) are modified deployments of LLaMA's inference architecture.
